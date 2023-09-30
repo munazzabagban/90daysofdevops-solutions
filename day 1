@@ -1,0 +1,39 @@
+Today's Topic is ⬇️
+What is Devops?♾️
+
+What is Automtion, scaling and Infrastructure ?💻📏🗺️
+
+Why DevOps is Important ?💁‍♀️♾️
+
+What is Devops?♾️
+The DevOps is a combination of two words, one is software Development, and second is Operations.
+	This allows a single team to handle the entire application lifecycle, from development to testing, deployment, and operations.
+		DevOps helps you to reduce the disconnection between software developers, quality assurance (QA) engineers, and system administrators .
+
+OR
+
+DevOps is the combination of cultural philosophies, practices, and tools that increases an organization’s ability to deliver applications and services at high velocity
+evolving and improving products at a faster pace than organizations using traditional software development and infrastructure management processes. 
+	This speed enables organizations to better serve their customers and compete more effectively in the market.
+
+	
+What is Automtion, scaling and Infrastructure ?💻📏🗺️
+Automation:-Automation is the use of technology to perform tasks with reduced human assistance. 
+Automation helps you accelerate processes and scale environments, as well as build continuous integration, continuous delivery,
+and continuous deployment (CI/CD) workflows. Automation in DevOps boosts speed, consistency, higher accuracy, reliability, and increases the number of deliveries.
+Automation in DevOps encapsulates everything right from the building, deploying, and monitoring.
+-DevOps Automation Tools In large DevOps team that maintain extensive massive IT infrastructure can be classified into six categories, such as: -Infrastructure Automation -Configuration Management -Deployment Automation -Performance Management -Log management -Monitoring
+
+Scaling - scaling refers to the ability of a system or application to handle a growing amount of work or users.
+It can involve both vertical scaling (increasing the resources of a single machine, such as adding more CPU or RAM) and horizontal scaling (adding more machines to distribute the workload).it refers to increasing or decreasing IT resources as needed to meet changing demand.
+Data storage capacity, processing power, and networking can all be increased by using existing cloud computing infrastructure. Scaling can be done quickly and easily, usually without any disruption or downtime.
+
+Infrastructure- In DevOps, infrastructure refers to the underlying technology stack and resources that are required to support the development, deployment, and operation of software applications. Infrastructure encompasses both hardware and software components, 
+and it plays a crucial role in enabling the automation, collaboration, and continuous delivery aspects of DevOps practices.
+
+Wy DevOps is Important ?💁‍♀️♾️
+DevOps is important for several reasons, as it addresses many challenges that organizations face in the fast-paced and competitive world of software development and IT operations.
+Here are some key reasons why DevOps is considered important: The operation and development team worked in complete isolation. After the design-build, the testing and deployment are performed respectively. That's why they consumed more time than actual build cycles. Without the use of DevOps♾️, the team members are spending a large amount of time on designing, testing, and deploying instead of building the project. Manual code deployment leads to human errors in production. Coding and operation teams have their separate timelines and are not in synch, causing further delays.
+
+
+
