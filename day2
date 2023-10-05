@@ -1,1 +1,137 @@
 
+🐧Linux 🐧
+Today's Topic is⬇️
+what is Linux?🐧
+
+Linux Architecture ?🐧🕵️
+
+Linux basic commands 💻
+
+What is Linux?💁‍♀️🐧
+Linux is an operating system. In fact, one of the most popular OS used on the planet. Android is powered by the Linux operating system, The Operating system is software that manages all of the hardware resources associated with your desktop or laptop. simply, the OS manages the communication between your software and your hardware. without the os software don't work... linux was initially released by Linus Torvalds on 17 September 1991The Linux kernel is the core component of the Linux operating system. It's responsible for managing hardware resources, providing essential services to software, and facilitating communication between software and hardware. The kernel controls tasks like process scheduling, memory management, file system management, and device management. It plays a crucial role in ensuring the stability and functionality of the entire operating system. The Linux kernel is open source, which means that its source code is freely available for anyone to view, modify, and contribute to, making it a cornerstone of the open-source software movement.
+
+Linux Architecture?🕵️🐧
+
+
+Hardware Layer: This is the physical hardware of the computer, including the CPU, RAM, storage devices, and peripherals.
+
+Kernel: At the core of the Linux architecture is the kernel. It directly interacts with the hardware, managing resources, scheduling tasks, and providing essential services to other parts of the operating system and software applications.
+
+System Libraries: These are libraries of code that provide standard functions and services to applications and other parts of the operating system. They include the C library (glibc), which is crucial for most software on a Linux system.
+
+System Utilities: These are essential command-line tools and utilities used for system administration and everyday tasks. Examples include shell interpreters (bash), file manipulation tools (ls, cp, mv), and package managers (apt, yum).
+
+Shell: The shell is the user interface to the operating system. It interprets user commands and communicates with the kernel to execute those commands. There are various shells available (e.g., bash, zsh), and users can choose the one they prefer.
+
+Application Software: These are the user-installed or pre-installed software applications that run on the Linux system. This can include web browsers, office suites, media players, development tools, and more.
+
+Please note that there are many variations and customizations of Linux distributions, so the architecture may vary slightly depending on the specific distribution and use case.
+
+Linux basic commands.📝
+Linux provides a wide range of command-line utilities for performing various tasks. Here are some basic Linux commands:
+
+pwd (Print Working Directory):
+
+Displays the current working directory (your current location in the file system).
+      pwd
+
+
+ls (List Files and Directories):
+
+Lists the files and directories in the current directory.
+ls
+
+cd (Change Directory):
+
+Changes the current directory.
+cd directory_name
+
+
+mkdir (Make Directory):
+
+Creates a new directory.
+mkdir directory_name
+
+
+rm (Remove):
+
+Deletes files and directories. Use with caution.
+    rm file_name
+
+To remove a directory and its contents recursively:
+ rm -r directory_name
+
+
+touch:
+
+Creates an empty file or updates the access/modify timestamps of an existing file.
+touch file_name
+
+
+cp (Copy):
+
+Copies files or directories from one location to another.
+cp source destination
+
+
+
+mv (Move/Rename):
+
+Moves files or directories from one location to another. Can also be used for renaming.
+mv source destination
+
+
+cat (Concatenate):
+
+Displays the contents of a file.
+  cat file_name
+
+
+more and less:
+
+Display the contents of a file one screen at a time, allowing you to scroll through large files.
+ more file_name
+
+
+head and tail:
+
+Display the first or last few lines of a file, respectively.
+ head file_name
+ tail file_name
+
+chmod (Change Mode):
+Modifies file permissions (read, write, execute) for users, groups, and others.
+chmod permissions file_name
+
+chown (Change Ownership):
+Changes the owner and group of a file or directory.
+ chown user:group file_name
+
+ps (Process Status):
+Lists currently running processes.
+ ps
+
+
+kill:
+Terminates a process by its Process ID (PID).
+ kill PID
+
+df (Disk Free):
+Displays disk space usage.
+ df -h
+
+ls -a :
+List all including hidden files and directory
+ls -a
+
+ls*.sh:
+List all the files having .sh extension
+        ls*.sh
+
+ls -i :
+List the files and directories with index numbers inodes
+        ls -i
+
+
+These are just a few of the basic Linux commands.
+
