@@ -1,0 +1,98 @@
+📝Todays Topics is ⬇️
+What is Shell?🐚
+
+What is Linux Shell Scripting ?🐧🐚
+
+Explain in your own words and examples, what is Shell Scripting for DevOps. ?♾️🐚
+
+What is `#!/bin/bash?` can we write `#!/bin/sh` as well? 💁‍♀️
+
+Write a Shell Script which prints `I will complete #90DaysOofDevOps challenge` ?🖨️
+
+Write a Shell Script to take user input, input from arguments and print the variables.?🖨️📝
+
+Write an Example of If else in Shell Scripting by comparing 2 numbers ?👩‍💻
+
+What is Shell?🐚
+A shell is a user interface for interacting with an operating system, allowing users to communicate with and control the computer. It's essentially a command-line interface that interprets and executes commands entered by the user. There are different types of shells, and they can vary based on the operating system.
+
+What is Linux Shell Scripting ?🐧🐚
+Linux shell scripting, in simple terms, is like giving your computer a set of step-by-step instructions to perform tasks automatically.Linux shell scripting is the process of writing scripts or programs using the command-line shell in a Linux or Unix-based operating system, typically using the Bash shell or other compatible shells. These scripts are sets of commands and instructions that can be executed by the shell to perform various tasks and automate processes.
+
+Explain in your own words and examples, what is Shell Scripting for DevOps. ?♾️🐚
+Shell scripting for DevOps is like having a set of automated helpers for managing and maintaining the software and systems that make your favorite apps and websites run smoothly. Think of it as your very own team of digital assistants. They follow your instructions to ensure everything is up and running, just the way it should be, behind the scenes.
+
+Here's a simple example:
+
+Imagine you have a website, and you want to update it with the latest content every day. Instead of copying and pasting the new content by hand, you can create a shell script to do it for you. You tell the script where to find the new content and where to put it on your website. Then, every day, the script automatically does this task for you, saving you time and preventing errors.
+
+These scripts can do all sorts of tasks, like setting up new servers, making sure your software is always up-to-date, and even alerting you if something goes wrong. They help DevOps professionals manage and deploy software more efficiently, making sure it's reliable and available to users.
+
+In a nutshell, shell scripting for DevOps simplifies the work of keeping software and systems running smoothly, making it easier for companies to deliver their services without hiccups. It's like having a tireless team of computer assistants who take care of the technical stuff while you focus on the big picture. ♾️🐚
+
+What is `#!/bin/bash?` can we write `#!/bin/sh` as well? 💁‍♀️
+#!/bin/bash: This shebang line tells the computer to use the "Bash" shell to run the script. Bash is a powerful and widely used shell in Linux and Unix-like systems.
+
+#!/bin/sh: This shebang line tells the computer to use the default system shell to run the script. In many cases, this default shell is also Bash, but it could be a different shell depending on the system configuration.
+
+Write a Shell Script which prints `I will complete #90DaysOofDevOps challenge` ?🖨️
+
+COPY
+
+COPY
+ #!/bin/bash
+
+ echo "I will complete #90DaysOfDevOps challenge"
+Write a Shell Script to take user input, input from arguments and print the variables.?🖨️📝
+Certainly! Here's a simple shell script that takes user input and input from command-line arguments, and then prints the variables:
+
+
+COPY
+
+COPY
+#!/bin/bash
+
+# Take user input
+echo "Enter your name:"
+read user_input
+
+# Get input from command-line arguments
+arg_input="$1"
+
+# Print the variables
+echo "User input: $user_input"
+echo "Argument input: $arg_input"
+Write an Example of If else in Shell Scripting by comparing 2 numbers ?👩‍💻
+Here's an example of an if-else statement in a shell script that compares two numbers:
+
+
+COPY
+
+COPY
+ #!/bin/bash
+
+ # Define two numbers
+ num1=5
+ num2=7
+
+ # Compare the numbers
+ if [ "$num1" -eq "$num2" ]; then
+     echo "$num1 is equal to $num2"
+ elif [ "$num1" -lt "$num2" ]; then
+     echo "$num1 is less than $num2"
+ else
+     echo "$num1 is greater than $num2"
+ fi
+In this script:
+
+We define two numbers, num1 and num2.
+
+We use an if-else statement to compare these numbers.
+
+The -eq operator checks if the two numbers are equal.
+
+The -lt operator checks if the first number is less than the second number.
+
+The else part handles the case where num1 is greater than num2.
+
+When you run the script, it will compare the two numbers and print the appropriate message based on the comparison. https://munazza27.hashnode.dev/day-4-basic-linux-shell-scripting
